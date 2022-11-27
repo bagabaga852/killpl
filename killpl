@@ -12,7 +12,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 
 if game:GetService("CoreGui"):FindFirstChild("KAIOD") then
-    game:GetService("CoreGui"):FindFirstChild("KAIOD"):Destroy()
  _G.loopkill = false
 end
 local KAIOD = Instance.new("ScreenGui")
